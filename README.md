@@ -1,85 +1,39 @@
-🧠 Rule-Based Chatbot (Pure Python)
-📌 Overview
+# 🧠 Rule-Based Chatbot (Pure Python)
 
-This project is a console-based intelligent chatbot built using only core Python (no external libraries).
-It simulates early conversational AI by using rule-based logic, keyword matching, and context awareness.
+## 📌 Overview
+This project is a **console-based intelligent chatbot** built using only core Python (no external libraries).  
+It simulates early conversational AI using **rule-based logic, keyword matching, and context awareness**.
 
-The chatbot can understand user input, detect mood, maintain conversation flow, and even learn new responses over time.
+The chatbot can understand user input, detect mood, maintain conversation flow, and even **learn new responses over time**.
 
-🎯 Features
-💬 Keyword-based conversation system
-🧠 Context-aware replies (remembers previous messages)
-😊 Mood detection (happy, sad, angry)
-📚 Predefined intents (greetings, help, jokes, study, etc.)
-🧩 Learning mode (user can teach new responses)
-💾 Persistent memory using file storage
-🔁 Continuous chat loop until user exits
-🛠️ Tech Stack
-Language: Python
-Libraries: None (only core Python)
-📂 Project Structure
-chatbot/
-│── chatbot.py          # Main chatbot logic
-│── knowledge.txt       # Stores learned responses
-│── README.md           # Project documentation
-⚙️ How It Works
-User enters a message
-Chatbot:
-Processes input (lowercase, keyword extraction)
-Detects mood based on words
-Matches with predefined intents
-If no match found:
-Switches to learning mode
-Response is generated and displayed
-🧪 Sample Interaction
-You: hello
-Bot: Hey! How can I help you today?
+---
 
-You: I am sad
-Bot: I'm here for you. Want to talk about it?
+## 🎯 Features
+- 💬 Keyword-based conversation system  
+- 🧠 Context-aware replies (remembers previous messages)  
+- 😊 Mood detection (happy, sad, angry)  
+- 📚 Predefined intents (greetings, help, jokes, study, etc.)  
+- 🧩 Learning mode (user can teach new responses)  
+- 💾 Persistent memory using file storage  
+- 🔁 Continuous chat loop until user exits  
 
-You: what is python
-Bot: I don't know that yet. Can you teach me?
-You: Python is a programming language
-Bot: Got it! I'll remember that.
-🚀 How to Run
-Install Python (3.x)
-Clone the repository:
-git clone https://github.com/your-username/chatbot.git
-Navigate to project folder:
-cd chatbot
-Run the program:
-python chatbot.py
-🔒 Constraints
-No external libraries used
-Built using only core Python concepts
-💡 Future Improvements
-Add GUI (Tkinter)
-Improve NLP logic
-Add voice input/output
-Integrate with real AI models later
-📈 Learning Outcomes
-Strong understanding of:
-String processing
-Dictionaries & data structures
-File handling
-Logic building
-🤝 Contributing
+---
 
-Feel free to fork this repo and improve the chatbot with new features!
+## 🛠️ Tech Stack
+- **Language:** Python  
+- **Libraries:** None (only core Python)  
 
-📜 License
+---
+## ⚙️ How It Works
+1. User enters a message  
+2. Chatbot:
+   - Processes input (lowercase, keyword extraction)
+   - Detects mood based on words  
+   - Matches with predefined intents  
+3. If no match is found:
+   - Switches to learning mode  
+4. Response is generated and displayed  
 
-This project is open-source and free to use.
-
-⭐ Author
-
-Aman Sharma
-B.Tech CSE (AIML)
-
-💥 Pro Tip
-
-This project may look simple, but it demonstrates:
-👉 Core AI thinking
-👉 Problem-solving
-👉 System design basics
+---
+## Author
+AMAN SHARMA
