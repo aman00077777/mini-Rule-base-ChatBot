@@ -1,4 +1,4 @@
-# 🧠 Rule-Based Chatbot (Pure Python)
+# 🧠 PyBOT
 
 ## 📌 Overview
 This project is a **console-based intelligent chatbot** built using only core Python (no external libraries).  
